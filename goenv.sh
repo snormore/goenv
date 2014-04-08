@@ -6,6 +6,7 @@ CWD=$(pwd)
 GOPATH_REL=${GOPATH_ARG:-$DEFAULT_GOPATH}
 GOPATH=$CWD/$GOPATH_REL
 GOBIN=$GOPATH/bin
+set -e
 mkdir -p $GOBIN
 mkdir -p $GOPATH/src/`dirname $REPO`
 [ -d $GOPATH/src/$REPO ] || ln -sfv $CWD $GOPATH/src/$REPO
