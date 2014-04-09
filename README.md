@@ -6,7 +6,7 @@
 
 ## Usage
 
- - `goenv <path>`
+ - `goenv <repo> [path]`
 
 ## Example
 
