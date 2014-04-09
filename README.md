@@ -10,7 +10,7 @@
 
 ## Example
 
- - `goenv .go`
+ - `goenv github.com/snormore/gowire .go`
  - `source .go/bin/activate`
 
 ## TODO
